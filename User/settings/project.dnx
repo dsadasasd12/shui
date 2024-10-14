@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>1</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <StLinkDriver>
+        <WatchCond>_ 0</WatchCond>
+        <Watch0>_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0</Watch0>
+        <Watch1>_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0</Watch1>
+        <stlinkserialNo>4A51544E</stlinkserialNo>
+        <stlinkfoundProbes />
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <stlinkResetStyle>0</stlinkResetStyle>
+        <stlinkResetStrategy>0</stlinkResetStrategy>
+    </StLinkDriver>
+    <DebugChecksum>
+        <Checksum>1888868310</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <Registers>
+        <regBase0>ADC_RDATA 10</regBase0>
+    </Registers>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <Interrupts>
+        <Enabled>1</Enabled>
+    </Interrupts>
+    <MemConfig>
+        <Base>1</Base>
+        <Manual>0</Manual>
+        <Ddf>1</Ddf>
+        <TypeViol>0</TypeViol>
+        <Stop>1</Stop>
+    </MemConfig>
+    <Simulator>
+        <Freq>10000000</Freq>
+        <FreqHi>0</FreqHi>
+        <MultiCoreRunAll>1</MultiCoreRunAll>
+    </Simulator>
+    <array_types>
+        <Fmt0>uint16_t[2546]	3	0</Fmt0>
+        <Fmt1>uint16_t[2900]	3	0</Fmt1>
+        <Fmt2>uint8_t[10]	3	0</Fmt2>
+        <Fmt3>uint8_t[256]	3	0</Fmt3>
+        <Fmt4>uint8_t[3]	4	0</Fmt4>
+        <Fmt5>uint8_t[4]	3	0</Fmt5>
+        <Fmt6>uint8_t[6]	3	0</Fmt6>
+        <Fmt7>uint8_t[8]	3	0</Fmt7>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}1:Eui	4	0</Fmt0>
+        <Fmt1>{W}1:adc	4	0</Fmt1>
+        <Fmt2>{W}1:buf_f	3	0</Fmt2>
+        <Fmt3>{W}1:cur_index	3	0</Fmt3>
+        <Fmt4>{W}1:d	4	0</Fmt4>
+        <Fmt5>{W}1:delt_x	3	0</Fmt5>
+        <Fmt6>{W}1:delt_y	3	0</Fmt6>
+        <Fmt7>{W}1:down_rlt	3	0</Fmt7>
+        <Fmt8>{W}1:down_wid_end	3	0</Fmt8>
+        <Fmt9>{W}1:end	3	0</Fmt9>
+        <Fmt10>{W}1:end_n	3	0</Fmt10>
+        <Fmt11>{W}1:err	3	0</Fmt11>
+        <Fmt12>{W}1:i	3	0</Fmt12>
+        <Fmt13>{W}1:i_num	3	0</Fmt13>
+        <Fmt14>{W}1:i_vis	3	0</Fmt14>
+        <Fmt15>{W}1:last_index	3	0</Fmt15>
+        <Fmt16>{W}1:len	3	0</Fmt16>
+        <Fmt17>{W}1:min_decode_width	3	0</Fmt17>
+        <Fmt18>{W}1:n1	3	0</Fmt18>
+        <Fmt19>{W}1:num1	3	0</Fmt19>
+        <Fmt20>{W}1:num2	3	0</Fmt20>
+        <Fmt21>{W}1:res	4	0</Fmt21>
+        <Fmt22>{W}1:rlt_width_down	3	0</Fmt22>
+        <Fmt23>{W}1:rlt_width_up	3	0</Fmt23>
+        <Fmt24>{W}1:round_d	3	0</Fmt24>
+        <Fmt25>{W}1:sig_pix	3	0</Fmt25>
+        <Fmt26>{W}1:start	3	0</Fmt26>
+        <Fmt27>{W}1:temp1	3	0</Fmt27>
+        <Fmt28>{W}1:temp122	3	0</Fmt28>
+        <Fmt29>{W}1:temp2	3	0</Fmt29>
+        <Fmt30>{W}1:to_vis_ran	3	0</Fmt30>
+        <Fmt31>{W}1:u	4	0</Fmt31>
+        <Fmt32>{W}1:up_rlt	3	0</Fmt32>
+        <Fmt33>{W}1:up_wid_end	3	0</Fmt33>
+        <Fmt34>{W}1:vis_n	3	0</Fmt34>
+        <Fmt35>{W}1:vis_range	3	0</Fmt35>
+    </watch_formats>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "0x08000D62" 0 0 1 "" 0 "" 0</Bp0>
+        <Count>1</Count>
+    </Breakpoints2>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <Aliases>
+        <A0>_ "C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_副本\User\main.c" ""</A0>
+        <Count>1</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+</settings>

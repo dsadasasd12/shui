@@ -1,0 +1,1200 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  14/Oct/2024  14:11:28
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Exe\project.out
+#    Map file     =  
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\List\project.map
+#    Command line =  
+#        -f C:\Users\26490\AppData\Local\Temp\EWCCD6.tmp
+#        (C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\adc.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\bf2460.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\ccd.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\ccd_decode.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\ccd_fun.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\flash.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e230c_eval.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_adc.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_cmp.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_crc.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_dbg.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_dma.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_exti.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_fmc.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_fwdgt.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_gpio.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_i2c.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_it.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_misc.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_pmu.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_rcu.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_rtc.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_spi.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_syscfg.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_timer.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_usart.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\gd32e23x_wwdgt.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\HZ.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\lcd160642.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\main.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\spi.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\startup_gd32e23x.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\system_gd32e23x.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\systick.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\uart.o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj\ui.o
+#        --no_out_extension -o
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Exe\project.out
+#        --map
+#        C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\List\project.map
+#        --config D:\IAR\arm\config\linker\GD\GD32E230x8.icf --semihosting
+#        --entry __iar_program_start --vfe --enable_stack_usage --text_out
+#        locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Warning[Ls016]: [stack usage analysis] the program contains at least one
+          indirect call. Example: from "cg_ui1". A complete list of such
+          functions is in the map file.
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x800'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 1K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'1fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xcc
+  .intvec            ro code   0x800'0000    0xcc  startup_gd32e23x.o [1]
+                             - 0x800'00cc    0xcc
+
+"P1":                                      0x66fe
+  .text              ro code   0x800'00cc  0x28dc  ui.o [1]
+  .text              ro code   0x800'29a8   0x334  lcd160642.o [1]
+  .text              ro code   0x800'2cdc   0x120  HZ.o [1]
+  .text              ro code   0x800'2dfc    0x28  FltCmpGe.o [3]
+  .text              ro code   0x800'2e24    0x3a  FltToS32.o [3]
+  .text              ro code   0x800'2e5e    0xb0  FltMul.o [3]
+  .text              ro code   0x800'2f0e    0x7e  lz77_init_single.o [4]
+  .text              ro code   0x800'2f8c  0x12e4  ccd_decode.o [1]
+  .text              ro code   0x800'4270   0x120  FltAddSub.o [3]
+  .text              ro code   0x800'4390    0x32  FltToDbl.o [3]
+  .text              ro code   0x800'43c2     0x8  abs.o [2]
+  .text              ro code   0x800'43ca    0xaa  FltDiv.o [3]
+  .text              ro code   0x800'4474    0x36  IxxToFlt.o [3]
+  .text              ro code   0x800'44ac   0x408  gd32e23x_rcu.o [1]
+  .text              ro code   0x800'48b4   0x17a  gd32e23x_gpio.o [1]
+  .text              ro code   0x800'4a30   0x1e0  gd32e23x_spi.o [1]
+  .text              ro code   0x800'4c10   0x120  systick.o [1]
+  .text              ro code   0x800'4d30    0x14  memset.o [4]
+  .text              ro code   0x800'4d44    0x34  IxxToDbl.o [3]
+  .text              ro code   0x800'4d78   0x184  DblMul.o [3]
+  .text              ro code   0x800'4efc    0x32  DblCmpLe.o [3]
+  .text              ro code   0x800'4f2e    0x32  DblCmpGe.o [3]
+  .text              ro code   0x800'4f60    0x26  FltCmpLe.o [3]
+  .text              ro code   0x800'4f88    0x10  ccd.o [1]
+  .text              ro code   0x800'4f98    0x4e  ABImemcpy.o [4]
+  .text              ro code   0x800'4fe8    0x4e  ABImemset.o [4]
+  .text              ro code   0x800'5038   0x2fc  bf2460.o [1]
+  .text              ro code   0x800'5334   0x32c  gd32e23x_adc.o [1]
+  .text              ro code   0x800'5660   0x300  gd32e23x_usart.o [1]
+  .text              ro code   0x800'5960   0x284  uart.o [1]
+  .text              ro code   0x800'5be4    0xf4  gd32e23x_misc.o [1]
+  .text              ro code   0x800'5cd8    0x28  printf.o [2]
+  .text              ro code   0x800'5d00     0xc  memcpy.o [4]
+  .text              ro code   0x800'5d0c   0x186  xprintftiny.o [2]
+  .text              ro code   0x800'5e92    0xae  I32DivModFast.o [4]
+  .text              ro code   0x800'5f40     0xe  strlen.o [4]
+  .text              ro code   0x800'5f50     0x2  IntDivZer.o [4]
+  .text              ro code   0x800'5f54   0x104  system_gd32e23x.o [1]
+  .text              ro code   0x800'6058    0x80  adc.o [1]
+  .text              ro code   0x800'60d8    0x3c  zero_init3.o [4]
+  .text              ro code   0x800'6114    0x38  main.o [1]
+  .text              ro code   0x800'614c    0x28  data_init.o [4]
+  .iar.init_table    const     0x800'6174    0x20  - Linker created -
+  .text              ro code   0x800'6194    0x1e  cmain.o [4]
+  .text              ro code   0x800'61b2     0x4  low_level_init.o [2]
+  .text              ro code   0x800'61b6     0x8  exit.o [2]
+  .text              ro code   0x800'61c0     0xa  cexit.o [4]
+  .text              ro code   0x800'61cc    0x14  exit.o [5]
+  .text              ro code   0x800'61e0    0x16  xprout.o [2]
+  .text              ro code   0x800'61f8    0x10  putchar.o [2]
+  .rodata            const     0x800'6208    0x14  uart.o [1]
+  .rodata            const     0x800'621c    0x10  gd32e23x_rcu.o [1]
+  .rodata            const     0x800'622c    0x10  uart.o [1]
+  .rodata            const     0x800'623c    0x10  uart.o [1]
+  .text              ro code   0x800'624c    0x10  gd32e23x_it.o [1]
+  .text              ro code   0x800'625c    0x10  startup_gd32e23x.o [1]
+  .rodata            const     0x800'626c     0xc  uart.o [1]
+  .rodata            const     0x800'6278     0xc  uart.o [1]
+  .text              ro code   0x800'6284     0xc  cstartup_M.o [4]
+  .rodata            const     0x800'6290     0x8  gd32e23x_rcu.o [1]
+  .rodata            const     0x800'6298     0x8  gd32e23x_rcu.o [1]
+  .text              ro code   0x800'62a0     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62a4     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62a8     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62ac     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62b0     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62b4     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62b8     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62bc     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62c0     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62c4     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62c8     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62cc     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62d0     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62d4     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62d8     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62dc     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62e0     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62e4     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62e8     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62ec     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62f0     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62f4     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62f8     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'62fc     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'6300     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'6304     0x4  startup_gd32e23x.o [1]
+  .text              ro code   0x800'6308     0x4  startup_gd32e23x.o [1]
+  .rodata            const     0x800'630c     0x0  zero_init3.o [4]
+  .rodata            const     0x800'630c     0x0  lz77_init_single.o [4]
+  Initializer bytes  const     0x800'630c   0x4be  <for P2-1>
+                             - 0x800'67ca  0x66fe
+
+"P2", part 1 of 3:                          0x5ed
+  P2-1                        0x2000'0000   0x5ed  <Init block>
+    .data            inited   0x2000'0000    0x88  ccd_decode.o [1]
+    .data            inited   0x2000'0088     0x4  ccd_decode.o [1]
+    .data            inited   0x2000'008c    0xf0  HZ.o [1]
+    .data            inited   0x2000'017c     0x4  system_gd32e23x.o [1]
+    .data            inited   0x2000'0180   0x2e0  ui.o [1]
+    .data            inited   0x2000'0460   0x140  ui.o [1]
+    .data            inited   0x2000'05a0    0x48  xfiles.o [2]
+    .data            inited   0x2000'05e8     0x2  ccd_decode.o [1]
+    .data            inited   0x2000'05ea     0x1  ccd_decode.o [1]
+    .data            inited   0x2000'05eb     0x1  ccd_decode.o [1]
+    .data            inited   0x2000'05ec     0x1  ccd_decode.o [1]
+                            - 0x2000'05ed   0x5ed
+
+"P2", part 2 of 3:                         0x15e4
+  .bss               zero     0x2000'05f0  0x1388  adc.o [1]
+  .bss               zero     0x2000'1978    0x54  ccd_decode.o [1]
+  .bss               zero     0x2000'19cc    0x54  ccd_decode.o [1]
+  .bss               zero     0x2000'1a20    0x50  ccd_decode.o [1]
+  .bss               zero     0x2000'1a70    0x50  xfiles.o [2]
+  .bss               zero     0x2000'1ac0    0x2c  ccd_decode.o [1]
+  .bss               zero     0x2000'1aec    0x14  ccd_decode.o [1]
+  .bss               zero     0x2000'1b00    0x14  ccd_decode.o [1]
+  .bss               zero     0x2000'1b14    0x14  uart.o [1]
+  .bss               zero     0x2000'1b28    0x14  uart.o [1]
+  .bss               zero     0x2000'1b3c     0xc  ccd_decode.o [1]
+  .bss               zero     0x2000'1b48     0xc  ccd_decode.o [1]
+  .bss               zero     0x2000'1b54     0xc  ui.o [1]
+  .bss               zero     0x2000'1b60     0xc  ui.o [1]
+  .bss               zero     0x2000'1b6c     0xc  ui.o [1]
+  .bss               zero     0x2000'1b78     0x4  ccd_decode.o [1]
+  .bss               zero     0x2000'1b7c     0x4  ccd_decode.o [1]
+  .bss               zero     0x2000'1b80     0x4  ccd_decode.o [1]
+  .bss               zero     0x2000'1b84     0x4  ccd_decode.o [1]
+  .bss               zero     0x2000'1b88     0x4  ccd_decode.o [1]
+  .bss               zero     0x2000'1b8c     0x4  systick.o [1]
+  .bss               zero     0x2000'1b90     0x4  ui.o [1]
+  .bss               zero     0x2000'1b94     0x4  ui.o [1]
+  .bss               zero     0x2000'1b98     0x4  ui.o [1]
+  .bss               zero     0x2000'1b9c     0x4  ui.o [1]
+  .bss               zero     0x2000'1ba0     0x2  bf2460.o [1]
+  .bss               zero     0x2000'1ba2     0x2  ccd_decode.o [1]
+  .bss               zero     0x2000'1ba4     0x2  ccd_decode.o [1]
+  .bss               zero     0x2000'1ba6     0x2  ccd_decode.o [1]
+  .bss               zero     0x2000'1ba8     0x2  ccd_decode.o [1]
+  .bss               zero     0x2000'1baa     0x2  ccd_decode.o [1]
+  .bss               zero     0x2000'1bac     0x2  ccd_decode.o [1]
+  .bss               zero     0x2000'1bae     0x2  ccd_decode.o [1]
+  .bss               zero     0x2000'1bb0     0x2  ccd_decode.o [1]
+  .bss               zero     0x2000'1bb2     0x2  ccd_decode.o [1]
+  .bss               zero     0x2000'1bb4     0x2  ccd_decode.o [1]
+  .bss               zero     0x2000'1bb6     0x2  ccd_decode.o [1]
+  .bss               zero     0x2000'1bb8     0x2  ccd_decode.o [1]
+  .bss               zero     0x2000'1bba     0x2  ccd_decode.o [1]
+  .bss               zero     0x2000'1bbc     0x2  ui.o [1]
+  .bss               zero     0x2000'1bbe     0x1  ccd_decode.o [1]
+  .bss               zero     0x2000'1bbf     0x1  ccd_decode.o [1]
+  .bss               zero     0x2000'1bc0     0x1  ccd_decode.o [1]
+  .bss               zero     0x2000'1bc1     0x1  ccd_decode.o [1]
+  .bss               zero     0x2000'1bc2     0x1  ccd_decode.o [1]
+  .bss               zero     0x2000'1bc3     0x1  ccd_decode.o [1]
+  .bss               zero     0x2000'1bc4     0x1  ccd_decode.o [1]
+  .bss               zero     0x2000'1bc5     0x1  ccd_decode.o [1]
+  .bss               zero     0x2000'1bc6     0x1  ccd_decode.o [1]
+  .bss               zero     0x2000'1bc7     0x1  ccd_decode.o [1]
+  .bss               zero     0x2000'1bc8     0x1  ccd_decode.o [1]
+  .bss               zero     0x2000'1bc9     0x1  uart.o [1]
+  .bss               zero     0x2000'1bca     0x1  uart.o [1]
+  .bss               zero     0x2000'1bcb     0x1  uart.o [1]
+  .bss               zero     0x2000'1bcc     0x1  uart.o [1]
+  .bss               zero     0x2000'1bcd     0x1  ui.o [1]
+  .bss               zero     0x2000'1bce     0x1  ui.o [1]
+  .bss               zero     0x2000'1bcf     0x1  ui.o [1]
+  .bss               zero     0x2000'1bd0     0x1  ui.o [1]
+                            - 0x2000'1bd1  0x15e1
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'1bd8   0x400  <Block>
+    CSTACK           uninit   0x2000'1bd8   0x400  <Block tail>
+                            - 0x2000'1fd8   0x400
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+   0x800'67ca   0x800'ffff  0x9836
+  0x2000'05ed  0x2000'05ef     0x3
+  0x2000'1bd4  0x2000'1bd7     0x4
+  0x2000'1fd8  0x2000'1fff    0x28
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x15e1:
+          0x2000'05f0  0x15e1
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x4be (80% of destination):
+           0x800'630c   0x4be
+    1 destination range, total size 0x5ed:
+          0x2000'0000   0x5ed
+
+
+*******************************************************************************
+*** STACK USAGE
+***
+
+  Call Graph Root Category  Max Use  Total Use
+  ------------------------  -------  ---------
+  Program entry                180        180
+  Uncalled function            152      3 400
+
+
+Program entry
+  "__iar_program_start": 0x800'6285
+
+  Maximum call chain                            *?* 180  bytes
+    (** call graph contains indirect calls (example: "cg_ui1") **)
+
+    "__iar_program_start"                             0
+    "__cmain"                                         0
+    "main"                                            8
+    "uart0_init"                                     16
+    "usart_baudrate_set"                             32
+    "rcu_clock_freq_get"                            112
+    "__aeabi_memcpy4"                                12
+
+Uncalled function
+  "HardFault_Handler": 0x800'624f
+
+  Maximum call chain                                0  bytes
+
+    "HardFault_Handler"                             0
+
+Uncalled function
+  "NMI_Handler": 0x800'624d
+
+  Maximum call chain                                0  bytes
+
+    "NMI_Handler"                                   0
+
+Uncalled function
+  "PendSV_Handler": 0x800'6253
+
+  Maximum call chain                                0  bytes
+
+    "PendSV_Handler"                                0
+
+Uncalled function
+  "SVC_Handler": 0x800'6251
+
+  Maximum call chain                                0  bytes
+
+    "SVC_Handler"                                   0
+
+Uncalled function
+  "SysTick_Handler": 0x800'6255
+
+  Maximum call chain                                8  bytes
+
+    "SysTick_Handler"                               8
+    "delay_decrement"                               0
+
+Uncalled function
+  "SystemInit": 0x800'5f55
+
+  Maximum call chain                               24  bytes
+
+    "SystemInit"                                   16
+    "system_clock_config" in system_gd32e23x.o [1]
+                                                    8
+    "system_clock_8m_irc8m" in system_gd32e23x.o [1]
+                                                    0
+
+Uncalled function
+  "USART0_IRQHandler": 0x800'5a4d
+
+  Maximum call chain                              152  bytes
+
+    "USART0_IRQHandler"                            16
+    "printf"                                       24
+    "_PrintfTiny"                                  56
+    "out" in xprintftiny.o [2]                     16
+    "_Prout"                                       16
+    "putchar"                                       8
+    "fputc"                                        16
+    "usart_data_transmit"                           0
+
+Uncalled function
+  "height_loft1": 0x800'1329
+
+  Maximum call chain                              104  bytes
+
+    "height_loft1"                                  8
+    "write_num11"                                  24
+    "write_zm"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "height_loft2": 0x800'13c5
+
+  Maximum call chain                              104  bytes
+
+    "height_loft2"                                  8
+    "write_num11"                                  24
+    "write_zm"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "height_loft3": 0x800'1469
+
+  Maximum call chain                               80  bytes
+
+    "height_loft3"                                  8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "height_loft4": 0x800'155d
+
+  Maximum call chain                               80  bytes
+
+    "height_loft4"                                  8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "height_loft5": 0x800'1659
+
+  Maximum call chain                               80  bytes
+
+    "height_loft5"                                  8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "height_loft6": 0x800'172f
+
+  Maximum call chain                               80  bytes
+
+    "height_loft6"                                  8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "height_loft7": 0x800'17b9
+
+  Maximum call chain                               80  bytes
+
+    "height_loft7"                                  8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "hgt_dif_loft1": 0x800'18df
+
+  Maximum call chain                               80  bytes
+
+    "hgt_dif_loft1"                                 8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "hgt_dif_loft2": 0x800'19b5
+
+  Maximum call chain                               80  bytes
+
+    "hgt_dif_loft2"                                 8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "line_mea_main1": 0x800'1b81
+
+  Maximum call chain                               80  bytes
+
+    "line_mea_main1"                                8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "line_mea_main2": 0x800'1cbb
+
+  Maximum call chain                               80  bytes
+
+    "line_mea_main2"                                8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "line_mea_main3": 0x800'1df9
+
+  Maximum call chain                               80  bytes
+
+    "line_mea_main3"                                8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "line_mea_start1": 0x800'1f33
+
+  Maximum call chain                               80  bytes
+
+    "line_mea_start1"                               8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "line_mea_start10": 0x800'28a1
+
+  Maximum call chain                               80  bytes
+
+    "line_mea_start10"                              8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "line_mea_start2": 0x800'1fc3
+
+  Maximum call chain                               80  bytes
+
+    "line_mea_start2"                               8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "line_mea_start3": 0x800'218d
+
+  Maximum call chain                               80  bytes
+
+    "line_mea_start3"                               8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "line_mea_start4": 0x800'2351
+
+  Maximum call chain                               80  bytes
+
+    "line_mea_start4"                               8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "line_mea_start5": 0x800'2519
+
+  Maximum call chain                               80  bytes
+
+    "line_mea_start5"                               8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "line_mea_start6": 0x800'25f3
+
+  Maximum call chain                               80  bytes
+
+    "line_mea_start6"                               8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "line_mea_start7": 0x800'26cd
+
+  Maximum call chain                              104  bytes
+
+    "line_mea_start7"                               8
+    "write_num111"                                 24
+    "write_zm"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "line_mea_start8": 0x800'2763
+
+  Maximum call chain                               80  bytes
+
+    "line_mea_start8"                               8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "line_mea_start9": 0x800'27f3
+
+  Maximum call chain                              104  bytes
+
+    "line_mea_start9"                               8
+    "write_num111"                                 24
+    "write_zm"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "main_ui1": 0x800'0173
+
+  Maximum call chain                               80  bytes
+
+    "main_ui1"                                      8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "main_ui2": 0x800'01f9
+
+  Maximum call chain                               80  bytes
+
+    "main_ui2"                                      8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "main_ui3": 0x800'0305
+
+  Maximum call chain                               80  bytes
+
+    "main_ui3"                                      8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "stand_list1": 0x800'0bd1
+
+  Maximum call chain                               80  bytes
+
+    "stand_list1"                                   8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "stand_list2": 0x800'0cc3
+
+  Maximum call chain                               80  bytes
+
+    "stand_list2"                                   8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "stand_list3": 0x800'0db9
+
+  Maximum call chain                               80  bytes
+
+    "stand_list3"                                   8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "stand_list4": 0x800'0eab
+
+  Maximum call chain                               80  bytes
+
+    "stand_list4"                                   8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "stand_meas1": 0x800'0f41
+
+  Maximum call chain                              104  bytes
+
+    "stand_meas1"                                   8
+    "write_num11"                                  24
+    "write_zm"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "stand_meas2": 0x800'0fb7
+
+  Maximum call chain                              104  bytes
+
+    "stand_meas2"                                   8
+    "write_num11"                                  24
+    "write_zm"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "stand_meas3": 0x800'102f
+
+  Maximum call chain                              104  bytes
+
+    "stand_meas3"                                   8
+    "write_num11"                                  24
+    "write_zm"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "stand_meas4": 0x800'109b
+
+  Maximum call chain                              104  bytes
+
+    "stand_meas4"                                   8
+    "write_num11"                                  24
+    "write_zm"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "stand_meas5": 0x800'1107
+
+  Maximum call chain                               80  bytes
+
+    "stand_meas5"                                   8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "stand_meas6": 0x800'11b1
+
+  Maximum call chain                              144  bytes
+
+    "stand_meas6"                                  24
+    "display_num"                                  48
+    "write_zm"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "view_loft1": 0x800'1a4d
+
+  Maximum call chain                               80  bytes
+
+    "view_loft1"                                    8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+Uncalled function
+  "view_loft2": 0x800'1ae9
+
+  Maximum call chain                               80  bytes
+
+    "view_loft2"                                    8
+    "write_Hz"                                     32
+    "cmd"                                          16
+    "spi0_write_read"                              16
+    "spi_i2s_data_transmit"                         8
+
+The following functions perform unknown indirect calls:
+
+  "cg_ui1": 0x800'00cd
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module              ro code  ro data  rw data
+    ------              -------  -------  -------
+command line/config:
+    ---------------------------------------------
+    Total:
+
+C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj: [1]
+    HZ.o                    288      192      240
+    adc.o                   128             5 000
+    bf2460.o                764                 2
+    ccd.o                    16
+    ccd_decode.o          4 836      117      558
+    gd32e23x_adc.o          812
+    gd32e23x_gpio.o         378
+    gd32e23x_it.o            16
+    gd32e23x_misc.o         244
+    gd32e23x_rcu.o        1 032       32
+    gd32e23x_spi.o          480
+    gd32e23x_usart.o        768
+    lcd160642.o             820
+    main.o                   56
+    startup_gd32e23x.o      328
+    system_gd32e23x.o       260        3        4
+    systick.o               288                 4
+    uart.o                  644       76       44
+    ui.o                 10 460      845    1 114
+    ---------------------------------------------
+    Total:               22 618    1 265    6 966
+
+dl6M_tlf.a: [2]
+    abs.o                     8
+    exit.o                    8
+    low_level_init.o          4
+    printf.o                 40
+    putchar.o                16
+    xfiles.o                          57      152
+    xprintftiny.o           390
+    xprout.o                 22
+    ---------------------------------------------
+    Total:                  488       57      152
+
+m6M_tl.a: [3]
+    DblCmpGe.o               50
+    DblCmpLe.o               50
+    DblMul.o                388
+    FltAddSub.o             288
+    FltCmpGe.o               40
+    FltCmpLe.o               38
+    FltDiv.o                170
+    FltMul.o                176
+    FltToDbl.o               50
+    FltToS32.o               58
+    IxxToDbl.o               52
+    IxxToFlt.o               54
+    ---------------------------------------------
+    Total:                1 414
+
+rt6M_tl.a: [4]
+    ABImemcpy.o              78
+    ABImemset.o              78
+    I32DivModFast.o         174
+    IntDivZer.o               2
+    cexit.o                  10
+    cmain.o                  30
+    cstartup_M.o             12
+    data_init.o              40
+    lz77_init_single.o      126
+    memcpy.o                 12
+    memset.o                 20
+    strlen.o                 14
+    zero_init3.o             60
+    ---------------------------------------------
+    Total:                  656
+
+shb_l.a: [5]
+    exit.o                   20
+    ---------------------------------------------
+    Total:                   20
+
+    Gaps                     20
+    Linker created                    32    1 024
+-------------------------------------------------
+    Grand Total:         25 216    1 354    8 142
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base    0x800'6174           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'6194           --   Gb  - Linker created -
+?main                    0x800'6195          Code  Gb  cmain.o [4]
+Adj_thd                  0x800'4171    0x5a  Code  Gb  ccd_decode.o [1]
+CSTACK$$Base            0x2000'1bd8           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1fd8           --   Gb  - Linker created -
+Code_bar_length          0x800'2f8d   0x530  Code  Gb  ccd_decode.o [1]
+H_Z                     0x2000'0180   0x2e0  Data  Lc  ui.o [1]
+HardFault_Handler        0x800'624f     0x2  Code  Gb  gd32e23x_it.o [1]
+NMI_Handler              0x800'624d     0x2  Code  Gb  gd32e23x_it.o [1]
+PendSV_Handler           0x800'6253     0x2  Code  Gb  gd32e23x_it.o [1]
+Region$$Table$$Base      0x800'6174           --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'6194           --   Gb  - Linker created -
+SVC_Handler              0x800'6251     0x2  Code  Gb  gd32e23x_it.o [1]
+SysTick_Config           0x800'4c9f    0x32  Code  Lc  systick.o [1]
+SysTick_Handler          0x800'6255     0x8  Code  Gb  gd32e23x_it.o [1]
+SystemCoreClock         0x2000'017c     0x4  Data  Gb  system_gd32e23x.o [1]
+SystemInit               0x800'5f55    0xa8  Code  Gb  system_gd32e23x.o [1]
+USART0_IRQHandler        0x800'5a4d    0xda  Code  Gb  uart.o [1]
+Uart0_process_data       0x800'5b27    0x7a  Code  Gb  uart.o [1]
+_PrintfTiny              0x800'5d27   0x16c  Code  Gb  xprintftiny.o [2]
+_Prout                   0x800'61e1    0x16  Code  Gb  xprout.o [2]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'1fff          Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000          Data  Gb  <internal module>
+__NVIC_EnableIRQ         0x800'5be5    0x24  Code  Lc  gd32e23x_misc.o [1]
+__NVIC_SetPriority       0x800'5c09    0x8e  Code  Lc  gd32e23x_misc.o [1]
+__NVIC_SetPriority       0x800'4c11    0x8e  Code  Lc  systick.o [1]
+__aeabi_cdcmple          0x800'4efd          Code  Gb  DblCmpLe.o [3]
+__aeabi_cdrcmple         0x800'4f2f          Code  Gb  DblCmpGe.o [3]
+__aeabi_cfcmple          0x800'4f61          Code  Gb  FltCmpLe.o [3]
+__aeabi_cfrcmple         0x800'2dfd          Code  Gb  FltCmpGe.o [3]
+__aeabi_dmul             0x800'4d79          Code  Gb  DblMul.o [3]
+__aeabi_f2d              0x800'4391          Code  Gb  FltToDbl.o [3]
+__aeabi_f2iz             0x800'2e25          Code  Gb  FltToS32.o [3]
+__aeabi_fadd             0x800'4271          Code  Gb  FltAddSub.o [3]
+__aeabi_fdiv             0x800'43cb          Code  Gb  FltDiv.o [3]
+__aeabi_fmul             0x800'2e5f          Code  Gb  FltMul.o [3]
+__aeabi_fsub             0x800'42e1          Code  Gb  FltAddSub.o [3]
+__aeabi_i2d              0x800'4d65          Code  Gb  IxxToDbl.o [3]
+__aeabi_i2f              0x800'4495          Code  Gb  IxxToFlt.o [3]
+__aeabi_idiv0            0x800'5f51          Code  Gb  IntDivZer.o [4]
+__aeabi_memcpy           0x800'4fcd          Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4          0x800'4f99          Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8          0x800'4f99          Code  Gb  ABImemcpy.o [4]
+__aeabi_memset           0x800'4fe9          Code  Gb  ABImemset.o [4]
+__aeabi_ui2d             0x800'4d45          Code  Gb  IxxToDbl.o [3]
+__aeabi_ui2f             0x800'4475          Code  Gb  IxxToFlt.o [3]
+__aeabi_uidiv            0x800'5e93          Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod         0x800'5e93          Code  Gb  I32DivModFast.o [4]
+__cmain                  0x800'6195          Code  Gb  cmain.o [4]
+__exit                   0x800'61cd    0x14  Code  Gb  exit.o [5]
+__iar_Memcpy             0x800'4fd9          Code  Gb  ABImemcpy.o [4]
+__iar_Memset4_word       0x800'5009          Code  Gb  ABImemset.o [4]
+__iar_Memset_word        0x800'4ff5          Code  Gb  ABImemset.o [4]
+__iar_Stdout            0x2000'05a0    0x48  Data  Gb  xfiles.o [2]
+__iar_data_init3         0x800'614d    0x28  Code  Gb  data_init.o [4]
+__iar_lz77_init_single3
+                         0x800'2f0f    0x7e  Code  Gb  lz77_init_single.o [4]
+__iar_program_start      0x800'6285          Code  Gb  cstartup_M.o [4]
+__iar_zero_init3         0x800'60d9    0x3c  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'61b3     0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000          Data  Gb  startup_gd32e23x.o [1]
+_call_main               0x800'61a1          Code  Gb  cmain.o [4]
+_exit                    0x800'61c1          Code  Gb  cexit.o [4]
+_main                    0x800'61af          Code  Gb  cmain.o [4]
+abs                      0x800'43c3     0x8  Code  Gb  abs.o [2]
+adc_calibration_enable   0x800'5349    0x24  Code  Gb  gd32e23x_adc.o [1]
+adc_channel_length_config
+                         0x800'53ff    0x4a  Code  Gb  gd32e23x_adc.o [1]
+adc_data_alignment_config
+                         0x800'53e1    0x1e  Code  Gb  gd32e23x_adc.o [1]
+adc_dma_mode_disable     0x800'536d     0xc  Code  Gb  gd32e23x_adc.o [1]
+adc_enable               0x800'5335    0x14  Code  Gb  gd32e23x_adc.o [1]
+adc_external_trigger_config
+                         0x800'5549    0x4c  Code  Gb  gd32e23x_adc.o [1]
+adc_external_trigger_source_config
+                         0x800'5599    0x36  Code  Gb  gd32e23x_adc.o [1]
+adc_flag_get             0x800'5609    0x16  Code  Gb  gd32e23x_adc.o [1]
+adc_gpio_init            0x800'6059    0x20  Code  Gb  adc.o [1]
+adc_init                 0x800'6079    0x60  Code  Gb  adc.o [1]
+adc_regular_channel_config
+                         0x800'5449    0xf2  Code  Gb  gd32e23x_adc.o [1]
+adc_resolution_config    0x800'5631    0x12  Code  Gb  gd32e23x_adc.o [1]
+adc_software_trigger_enable
+                         0x800'55cf    0x22  Code  Gb  gd32e23x_adc.o [1]
+adc_special_function_config
+                         0x800'5379    0x68  Code  Gb  gd32e23x_adc.o [1]
+adc_value               0x2000'05f0  0x1388  Data  Gb  adc.o [1]
+bar_len_test            0x2000'0000    0x88  Data  Gb  ccd_decode.o [1]
+bar_num_4               0x2000'1b48     0xc  Data  Gb  ccd_decode.o [1]
+bar_rad                  0x800'3ffd   0x134  Code  Gb  ccd_decode.o [1]
+bar_round               0x2000'1bb4     0x2  Data  Gb  ccd_decode.o [1]
+bf2460_gpio              0x800'5039    0x58  Code  Gb  bf2460.o [1]
+ccd_init                 0x800'514d   0x1da  Code  Gb  bf2460.o [1]
+cg_ui1                   0x800'00cd    0xa6  Code  Gb  ui.o [1]
+clear_ram                0x800'2c99    0x3e  Code  Gb  lcd160642.o [1]
+cmd                      0x800'2c35    0x2e  Code  Gb  lcd160642.o [1]
+code_bar_end            0x2000'1bb0     0x2  Data  Gb  ccd_decode.o [1]
+code_bar_flag           0x2000'1bb2     0x2  Data  Gb  ccd_decode.o [1]
+code_bar_num            0x2000'1bae     0x2  Data  Gb  ccd_decode.o [1]
+code_bar_start          0x2000'1bac     0x2  Data  Gb  ccd_decode.o [1]
+cur_index               0x2000'1bcd     0x1  Data  Gb  ui.o [1]
+data                     0x800'2c63    0x2e  Code  Gb  lcd160642.o [1]
+decode_feng             0x2000'1b3c     0xc  Data  Gb  ccd_decode.o [1]
+delay                   0x2000'1b8c     0x4  Data  Lc  systick.o [1]
+delay_10us               0x800'4cf3     0xc  Code  Gb  systick.o [1]
+delay_decrement          0x800'4cff    0x10  Code  Gb  systick.o [1]
+display_feng_buble       0x800'34e5   0x8aa  Code  Gb  ccd_decode.o [1]
+display_len              0x800'4139    0x2c  Code  Gb  ccd_decode.o [1]
+display_num              0x800'0769   0x462  Code  Gb  ui.o [1]
+dsp_num                 0x2000'1b54     0xc  Data  Gb  ui.o [1]
+end                     0x2000'1bc4     0x1  Data  Gb  ccd_decode.o [1]
+end_n                   0x2000'1bc8     0x1  Data  Gb  ccd_decode.o [1]
+eq_dun_index            0x2000'1b94     0x4  Data  Gb  ui.o [1]
+exit                     0x800'61b7     0x8  Code  Gb  exit.o [2]
+f_out                   0x2000'19cc    0x54  Data  Gb  ccd_decode.o [1]
+feng_end                0x2000'1ba4     0x2  Data  Gb  ccd_decode.o [1]
+feng_end_flag           0x2000'1ba8     0x2  Data  Gb  ccd_decode.o [1]
+feng_num                0x2000'1ba6     0x2  Data  Gb  ccd_decode.o [1]
+feng_start              0x2000'1ba2     0x2  Data  Gb  ccd_decode.o [1]
+feng_start_flag         0x2000'1baa     0x2  Data  Gb  ccd_decode.o [1]
+flag_bar_end            0x2000'1bbe     0x1  Data  Gb  ccd_decode.o [1]
+flag_l                  0x2000'1bcf     0x1  Data  Gb  ui.o [1]
+flag_num                0x2000'1bbf     0x1  Data  Gb  ccd_decode.o [1]
+fputc                    0x800'5a29    0x24  Code  Gb  uart.o [1]
+fun_index               0x2000'1b90     0x4  Data  Gb  ui.o [1]
+gpio_af_set              0x800'49a1    0x8e  Code  Gb  gd32e23x_gpio.o [1]
+gpio_bit_reset           0x800'4999     0x8  Code  Gb  gd32e23x_gpio.o [1]
+gpio_bit_set             0x800'4991     0x8  Code  Gb  gd32e23x_gpio.o [1]
+gpio_mode_set            0x800'48b5    0x70  Code  Gb  gd32e23x_gpio.o [1]
+gpio_output_options_set
+                         0x800'4925    0x6c  Code  Gb  gd32e23x_gpio.o [1]
+height_loft1             0x800'1329    0x9c  Code  Gb  ui.o [1]
+height_loft2             0x800'13c5    0x9c  Code  Gb  ui.o [1]
+height_loft3             0x800'1469    0xea  Code  Gb  ui.o [1]
+height_loft4             0x800'155d    0xea  Code  Gb  ui.o [1]
+height_loft5             0x800'1659    0xd6  Code  Gb  ui.o [1]
+height_loft6             0x800'172f    0x84  Code  Gb  ui.o [1]
+height_loft7             0x800'17b9   0x126  Code  Gb  ui.o [1]
+hgt_dif_loft1            0x800'18df    0xd6  Code  Gb  ui.o [1]
+hgt_dif_loft2            0x800'19b5    0x98  Code  Gb  ui.o [1]
+i_vis                   0x2000'05ec     0x1  Data  Gb  ccd_decode.o [1]
+last_index              0x2000'1bce     0x1  Data  Gb  ui.o [1]
+lcd_init                 0x800'2c1f    0x10  Code  Gb  lcd160642.o [1]
+lcd_start                0x800'2b39    0xe6  Code  Gb  lcd160642.o [1]
+line_mea_main1           0x800'1b81   0x13a  Code  Gb  ui.o [1]
+line_mea_main2           0x800'1cbb   0x13a  Code  Gb  ui.o [1]
+line_mea_main3           0x800'1df9   0x13a  Code  Gb  ui.o [1]
+line_mea_start1          0x800'1f33    0x90  Code  Gb  ui.o [1]
+line_mea_start10         0x800'28a1   0x104  Code  Gb  ui.o [1]
+line_mea_start2          0x800'1fc3   0x1c4  Code  Gb  ui.o [1]
+line_mea_start3          0x800'218d   0x1c4  Code  Gb  ui.o [1]
+line_mea_start4          0x800'2351   0x1c4  Code  Gb  ui.o [1]
+line_mea_start5          0x800'2519    0xda  Code  Gb  ui.o [1]
+line_mea_start6          0x800'25f3    0xda  Code  Gb  ui.o [1]
+line_mea_start7          0x800'26cd    0x96  Code  Gb  ui.o [1]
+line_mea_start8          0x800'2763    0x90  Code  Gb  ui.o [1]
+line_mea_start9          0x800'27f3    0xaa  Code  Gb  ui.o [1]
+loc_m                   0x2000'1bb8     0x2  Data  Gb  ccd_decode.o [1]
+loc_mid                 0x2000'1bb6     0x2  Data  Gb  ccd_decode.o [1]
+main                     0x800'6115    0x38  Code  Gb  main.o [1]
+main_ui1                 0x800'0173    0x86  Code  Gb  ui.o [1]
+main_ui2                 0x800'01f9    0xfe  Code  Gb  ui.o [1]
+main_ui3                 0x800'0305    0xfe  Code  Gb  ui.o [1]
+max_adc                 0x2000'1bba     0x2  Data  Gb  ccd_decode.o [1]
+mea_flag                0x2000'1bd0     0x1  Data  Gb  ui.o [1]
+meas                     0x800'4f89    0x10  Code  Gb  ccd.o [1]
+memcpy                   0x800'5d01     0xc  Code  Gb  memcpy.o [4]
+memset                   0x800'4d31    0x14  Code  Gb  memset.o [4]
+min_decode_width        0x2000'1bc0     0x1  Data  Gb  ccd_decode.o [1]
+min_level               0x2000'05e8     0x2  Data  Gb  ccd_decode.o [1]
+n1                      0x2000'1bc7     0x1  Data  Gb  ccd_decode.o [1]
+num1                    0x2000'1bc6     0x1  Data  Gb  ccd_decode.o [1]
+num_cml                 0x2000'1b60     0xc  Data  Gb  ui.o [1]
+num_flag                0x2000'1bbc     0x2  Data  Gb  ui.o [1]
+num_trr                 0x2000'1b6c     0xc  Data  Gb  ui.o [1]
+num_trrr                0x2000'1b9c     0x4  Data  Gb  ui.o [1]
+nvic_irq_enable          0x800'5c97    0x1c  Code  Gb  gd32e23x_misc.o [1]
+nvic_vector_table_set    0x800'5cb3    0x10  Code  Gb  gd32e23x_misc.o [1]
+obuf                    0x2000'1a70    0x50  Data  Lc  xfiles.o [2]
+out                     0x2000'1978    0x54  Data  Gb  ccd_decode.o [1]
+out                      0x800'5d0d    0x1a  Code  Lc  xprintftiny.o [2]
+printf                   0x800'5cd9    0x28  Code  Gb  printf.o [2]
+putchar                  0x800'61f9    0x10  Code  Gb  putchar.o [2]
+rcu_adc_clock_config     0x800'4529   0x130  Code  Gb  gd32e23x_rcu.o [1]
+rcu_clock_freq_get       0x800'4671   0x21c  Code  Gb  gd32e23x_rcu.o [1]
+rcu_periph_clock_enable
+                         0x800'44ad    0x28  Code  Gb  gd32e23x_rcu.o [1]
+rcu_periph_reset_disable
+                         0x800'44fd    0x28  Code  Gb  gd32e23x_rcu.o [1]
+rcu_periph_reset_enable
+                         0x800'44d5    0x28  Code  Gb  gd32e23x_rcu.o [1]
+rel_len                 0x2000'1b88     0x4  Data  Gb  ccd_decode.o [1]
+round_d                 0x2000'1bc5     0x1  Data  Gb  ccd_decode.o [1]
+rx_buf                  0x2000'1b14    0x14  Data  Gb  uart.o [1]
+rx_count                0x2000'1bc9     0x1  Data  Gb  uart.o [1]
+rx_len                  0x2000'1bcb     0x1  Data  Gb  uart.o [1]
+sh_time                  0x800'5091    0xbc  Code  Gb  bf2460.o [1]
+show_fine_turn           0x800'3db1    0xf6  Code  Gb  ccd_decode.o [1]
+show_vis_ran             0x800'3eb1   0x148  Code  Gb  ccd_decode.o [1]
+sig_height               0x800'41e9    0x52  Code  Gb  ccd_decode.o [1]
+sig_pix                 0x2000'1bc1     0x1  Data  Gb  ccd_decode.o [1]
+sig_pix_num             0x2000'05ea     0x1  Data  Gb  ccd_decode.o [1]
+spi0_gpio_init           0x800'29a9   0x110  Code  Gb  lcd160642.o [1]
+spi0_init                0x800'2ab9    0x4c  Code  Gb  lcd160642.o [1]
+spi0_write_read          0x800'2b05    0x34  Code  Gb  lcd160642.o [1]
+spi_enable               0x800'4b25     0xa  Code  Gb  gd32e23x_spi.o [1]
+spi_i2s_data_receive     0x800'4b7b    0x32  Code  Gb  gd32e23x_spi.o [1]
+spi_i2s_data_transmit    0x800'4b39    0x42  Code  Gb  gd32e23x_spi.o [1]
+spi_i2s_deinit           0x800'4a31    0x38  Code  Gb  gd32e23x_spi.o [1]
+spi_i2s_flag_get         0x800'4bb5    0x54  Code  Gb  gd32e23x_spi.o [1]
+spi_init                 0x800'4a7f    0xa6  Code  Gb  gd32e23x_spi.o [1]
+spi_struct_para_init     0x800'4a69    0x16  Code  Gb  gd32e23x_spi.o [1]
+stand_list1              0x800'0bd1    0xf2  Code  Gb  ui.o [1]
+stand_list2              0x800'0cc3    0xf2  Code  Gb  ui.o [1]
+stand_list3              0x800'0db9    0xf2  Code  Gb  ui.o [1]
+stand_list4              0x800'0eab    0x92  Code  Gb  ui.o [1]
+stand_meas1              0x800'0f41    0x76  Code  Gb  ui.o [1]
+stand_meas2              0x800'0fb7    0x78  Code  Gb  ui.o [1]
+stand_meas3              0x800'102f    0x6c  Code  Gb  ui.o [1]
+stand_meas4              0x800'109b    0x6c  Code  Gb  ui.o [1]
+stand_meas5              0x800'1107    0xa4  Code  Gb  ui.o [1]
+stand_meas6              0x800'11b1   0x178  Code  Gb  ui.o [1]
+start                   0x2000'1bc3     0x1  Data  Gb  ccd_decode.o [1]
+strlen                   0x800'5f41          Code  Gb  strlen.o [4]
+subed_num               0x2000'1b84     0x4  Data  Gb  ccd_decode.o [1]
+sum_num                 0x2000'1b98     0x4  Data  Gb  ui.o [1]
+system_clock_8m_irc8m    0x800'6005    0x26  Code  Lc  system_gd32e23x.o [1]
+system_clock_config      0x800'5ffd     0x8  Code  Lc  system_gd32e23x.o [1]
+systick_config           0x800'4cd1    0x22  Code  Gb  systick.o [1]
+table                   0x2000'0460   0x140  Data  Gb  ui.o [1]
+temp                    0x2000'1ba0     0x2  Data  Gb  bf2460.o [1]
+temp_buble              0x2000'1a20    0x50  Data  Gb  ccd_decode.o [1]
+temp_feng_ed            0x2000'1ac0    0x2c  Data  Gb  ccd_decode.o [1]
+tep_buf                 0x2000'1aec    0x14  Data  Gb  ccd_decode.o [1]
+tmp_mid                 0x2000'0088     0x4  Data  Gb  ccd_decode.o [1]
+tx_buf                  0x2000'1b28    0x14  Data  Gb  uart.o [1]
+tx_count                0x2000'1bca     0x1  Data  Gb  uart.o [1]
+tx_len                  0x2000'1bcc     0x1  Data  Gb  uart.o [1]
+uart0_init               0x800'5961    0xc8  Code  Gb  uart.o [1]
+up_len                  0x2000'1b78     0x4  Data  Gb  ccd_decode.o [1]
+up_wid                  0x2000'1b7c     0x4  Data  Gb  ccd_decode.o [1]
+up_wid_end              0x2000'1b80     0x4  Data  Gb  ccd_decode.o [1]
+usart_baudrate_set       0x800'5699    0x80  Code  Gb  gd32e23x_usart.o [1]
+usart_data_first_config
+                         0x800'579d    0x30  Code  Gb  gd32e23x_usart.o [1]
+usart_data_receive       0x800'57e1     0xa  Code  Gb  gd32e23x_usart.o [1]
+usart_data_transmit      0x800'57d5     0xc  Code  Gb  gd32e23x_usart.o [1]
+usart_deinit             0x800'5661    0x38  Code  Gb  gd32e23x_usart.o [1]
+usart_enable             0x800'5773     0xa  Code  Gb  gd32e23x_usart.o [1]
+usart_flag_get           0x800'5851    0x24  Code  Gb  gd32e23x_usart.o [1]
+usart_hardware_flow_cts_config
+                         0x800'5827    0x2a  Code  Gb  gd32e23x_usart.o [1]
+usart_hardware_flow_rts_config
+                         0x800'57fd    0x2a  Code  Gb  gd32e23x_usart.o [1]
+usart_interrupt_disable
+                         0x800'58a3    0x2e  Code  Gb  gd32e23x_usart.o [1]
+usart_interrupt_enable   0x800'5875    0x2e  Code  Gb  gd32e23x_usart.o [1]
+usart_interrupt_flag_clear
+                         0x800'5915    0x3a  Code  Gb  gd32e23x_usart.o [1]
+usart_interrupt_flag_get
+                         0x800'58d1    0x44  Code  Gb  gd32e23x_usart.o [1]
+usart_parity_config      0x800'5719    0x18  Code  Gb  gd32e23x_usart.o [1]
+usart_receive_config     0x800'578d    0x10  Code  Gb  gd32e23x_usart.o [1]
+usart_stop_bit_set       0x800'5749    0x2a  Code  Gb  gd32e23x_usart.o [1]
+usart_transmit_config    0x800'577d    0x10  Code  Gb  gd32e23x_usart.o [1]
+usart_word_length_set    0x800'5731    0x18  Code  Gb  gd32e23x_usart.o [1]
+uuu                     0x2000'1b00    0x14  Data  Gb  ccd_decode.o [1]
+view_loft1               0x800'1a4d    0x98  Code  Gb  ui.o [1]
+view_loft2               0x800'1ae9    0x98  Code  Gb  ui.o [1]
+vis_n                   0x2000'1bc2     0x1  Data  Gb  ccd_decode.o [1]
+way                     0x2000'05eb     0x1  Data  Gb  ccd_decode.o [1]
+write_Hz                 0x800'2cdd    0x82  Code  Gb  HZ.o [1]
+write_num11              0x800'05a3   0x1b0  Code  Gb  ui.o [1]
+write_num111             0x800'041d   0x186  Code  Gb  ui.o [1]
+write_zm                 0x800'2d5f    0x9a  Code  Gb  HZ.o [1]
+zm                      0x2000'008c    0xf0  Data  Gb  HZ.o [1]
+
+
+[1] = C:\Users\26490\Desktop\shuizhunyi\IAR\IAR_GD3223x_fu\User\Debug\Obj
+[2] = dl6M_tlf.a
+[3] = m6M_tl.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  25 216 bytes of readonly  code memory
+   1 354 bytes of readonly  data memory
+   8 142 bytes of readwrite data memory
+
+Errors: none
+Warnings: 1
